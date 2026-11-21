@@ -1,0 +1,17 @@
+# film-kit selftest output (selftest.mjs writes here)
+film-kit/selftest/out/
+# scenes.example.mjs writes next to itself if run in place
+film-kit/out/
+
+# Runtime learnings live in $PWN_IT_HOME; keep an old-path copy out of the repo
+/LEARNINGS.md
+
+# Python bytecode (from running scan-history.py)
+__pycache__/
+*.pyc
+
+# OS / editor junk
+.DS_Store
+*.swp
+.vscode/
+.idea/
